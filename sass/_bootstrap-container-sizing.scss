@@ -4,9 +4,11 @@
 }
 
 // to scroll to the technology section while accounting for fixed navbar
+#start,
 #technology,
 #projects{
     scroll-margin-top: 10vh;
+    // scroll-margin-bottom: -10vh;
     // allows this effect to occur on safari
     scroll-snap-margin-top: 10vh;
 }

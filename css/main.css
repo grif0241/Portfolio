@@ -81,6 +81,7 @@
   min-height: 10vh;
 }
 
+#start,
 #technology,
 #projects {
   scroll-margin-top: 10vh;
