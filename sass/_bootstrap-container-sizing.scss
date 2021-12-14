@@ -1,0 +1,25 @@
+/******** custom classes ********/
+.nav-header {
+    min-height: 10vh;
+}
+
+// to scroll to the technology section while accounting for fixed navbar
+#technology,
+#projects{
+    scroll-margin-top: 10vh;
+    // allows this effect to occur on safari
+    scroll-snap-margin-top: 10vh;
+}
+
+// not enough vertical content in larger view ports 
+#projects,
+#contact {
+    margin-top: 10vh;
+    min-height: 79vh;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 55em !important;
+    border-radius: .25rem;
+}

@@ -1,0 +1,57 @@
+/******** animation and transitions and hovers/focus ********/
+// active state for navbar
+.active {
+    border-bottom: 0.25rem $secondary solid;
+}
+
+.tg-logo:hover,
+.tg-logo:focus {
+    color: $secondary !important;
+}
+
+// animation for hero banner text
+// @media only screen and (min-width: 60em){
+    .hero-banner h2,
+    .hero-banner p{
+        animation: slideIn 0.75s 0.5s forwards;
+        transform: translateX(-6rem);
+        opacity: 0;
+    }
+
+    .hero-banner p {
+        animation-delay: 1s;
+    }
+    @keyframes slideIn {
+    from {
+        transform: translateX(-8rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    }
+
+    @keyframes fadeIn {
+        0%{
+            opacity: 0;
+        }
+        90% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100
+        }
+    }
+
+
+    #arrow-section {
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        animation: fadeIn 4s forwards;
+    }
+
+    #arrow-section:hover {
+        color: $secondary;
+
+    }
+// }

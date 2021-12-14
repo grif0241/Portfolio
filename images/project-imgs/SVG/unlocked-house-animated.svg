@@ -1,0 +1,28 @@
+<svg id="houses" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient" x1="80.31" y1="82.2" x2="429.11" y2="427.25" gradientUnits="userSpaceOnUse">
+      <stop offset="0.27" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="0.47" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.45"/>
+      <stop offset="0.54" stop-color="#fff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <g id="green-house">
+    <rect id="background-color" width="512" height="512" rx="90" fill="#8ce8ff"/>
+    <rect id="transparent-overlay" width="512" height="512" rx="90" fill="url(#linear-gradient)"/>
+    <path id="base-of-house" d="M257.41,154.25l-173.19,152h-.55V413.64C83.67,431,95.89,445,111,445H403.3c15.08,0,27.3-14,27.3-31.36V306.27Z" fill="#10b02c"/>
+    <path id="roof-of-house" d="M456.9,238.38l-181-161.65c-4.87-7-12.12-10.6-19.4-10.41-7.28-.19-14.54,3.38-19.4,10.41l-99.78,89.12v-3.68c0-15.52-11-28.09-24.46-28.09s-24.45,12.57-24.45,28.09V206.4c0,1,0,2,.14,3l-32.43,29c-10.5,9.38-12.4,26.77-4.23,38.83h0c8.17,12.06,23.3,14.24,33.81,4.86l170.8-152.56,170.8,152.56c10.5,9.38,25.64,7.2,33.81-4.86h0C469.29,265.15,467.4,247.76,456.9,238.38Z" fill="#10b02c"/>
+    <g id="green-lock">
+      <g id="bottom-of-lock">
+        <rect x="210.2" y="322.85" width="93.83" height="71.99" rx="8.69" fill="#fff"/>
+      </g>
+      <g id="top-of-lock">
+        <path d="M283.37,285.31v19.62h11.87V285.32a38.2,38.2,0,0,0-38.2-38.2h0a38.2,38.2,0,0,0-38.2,38.2v55.44h11.37V285.31a26.58,26.58,0,1,1,53.16,0Z" fill="#fff"/>
+      </g>
+      <g id="lock-key-hole">
+        <path d="M268.19,353.23a11.08,11.08,0,1,0-14.77,10.45v7.78a3.93,3.93,0,1,0,7.85,0v-8A11.08,11.08,0,0,0,268.19,353.23Z" fill="#10b02c"/>
+      </g>
+    </g>
+  </g>
+</svg>

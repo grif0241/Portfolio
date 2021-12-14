@@ -1,0 +1,55 @@
+/******** accessibility ********/
+.screen-reader-text {
+    position: absolute;
+    width: 0.5px;
+    height: 0.5px;
+    overflow: hidden;
+}
+.skip-links {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+.skip-links a{
+    position: absolute;
+    top: -100rem;
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    color: white;
+    border-radius: 0 0 .5rem .5rem;
+    text-decoration: none;
+    background-color: green;
+    z-index: 9000;
+}
+
+.skip-links a:focus{
+    top:0;
+}
+
+.to-top a {
+    position: absolute;
+    right:0;
+    bottom: 0rem;
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    color: white;
+    border-radius: .5rem .5rem 0 0;
+    text-decoration: none;
+    background-color: green;
+    z-index: 9000;
+}
+
+.to-top a:focus{
+    bottom: 0;
+    right: 0;
+}
+
+// allows the to-top a to stay in bottom right corner of page
+#footer {
+    position: relative;
+}
+// needed to pass colour contrast WAVE test for the required * symbol
+.required {
+    color: #9E0000
+}

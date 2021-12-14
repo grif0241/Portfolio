@@ -1,0 +1,13 @@
+/********  color palate ********/
+$primary: #222529;
+$secondary: #557394;
+$light-accent: #7B7987;
+$light-shades: #F1ECEA;
+$dark: #141319;
+
+.bg-light-accent {
+    background-color: $light-accent;
+}
+.bg-light-shades {
+    background-color: $light-shades;
+}
