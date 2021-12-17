@@ -37,7 +37,7 @@
 }
 
 .hero-banner p {
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 
 @keyframes slideInLeft {
