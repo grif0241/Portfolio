@@ -1,0 +1,19 @@
+desk-phone-banner from https://pixabay.com/
+
+HTML, CSS, JS, and Head window tab icon SVGs from https://ionic.io/ionicons
+- edited in AI to add color
+
+Photoshop, Adobe Illustrator and XD SVGs from sprite sheet exercise handout from MAD9011 class
+- edited in AI to add color
+
+Guitar Project and TMDB project SVGs from  https://www.svgrepo.com/vectors/html/
+-
+
+Bootstrap icons used:
+- down arrow
+- GitHub 
+- LinkedIn
+- avatar
+- email
+- phone
+- pen

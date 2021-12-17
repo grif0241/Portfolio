@@ -4,24 +4,30 @@
     border-bottom: 0.25rem $secondary solid;
 }
 
+.tg-logo {
+    transition: color 0.15s ease-in-out;
+}
+
 .tg-logo:hover,
 .tg-logo:focus {
     color: $secondary !important;
+    
 }
 
 // animation for hero banner text
 // @media only screen and (min-width: 60em){
+
     .hero-banner h2,
     .hero-banner p{
-        animation: slideIn 0.75s 0.5s forwards;
+        animation: slideInLeft 0.75s 0.5s forwards;
         transform: translateX(-6rem);
         opacity: 0;
     }
 
     .hero-banner p {
-        animation-delay: 1s;
+        animation-delay: 1.5s;
     }
-    @keyframes slideIn {
+    @keyframes slideInLeft {
     from {
         transform: translateX(-8rem);
         opacity: 0;
@@ -42,6 +48,46 @@
         100% {
             opacity: 100
         }
+    }
+
+    @keyframes slideInRight {
+        from {
+            transform: translateX(8rem);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideUp {
+        from {
+            transform: translateY(8em);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    #pad-secure{
+        animation: slideInLeft 0.75s 0.3s forwards;
+        transform: translateX(-6rem);
+        opacity: 0;
+    }
+
+    #TMDB {
+        animation: slideInRight 0.75s 0.6s forwards;
+        transform:  6rem;
+        opacity: 0
+        }
+
+    #web-form {
+        animation: slideUp 0.75s 0.9s forwards;
+        transform:  6rem;
+        opacity: 0
     }
 
 
