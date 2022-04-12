@@ -81,20 +81,26 @@
     opacity: 1;
   }
 }
+#media-player {
+  animation: slideInLeft 0.75s 0.25s forwards;
+  transform: translateX(-6rem);
+  opacity: 0;
+}
+
 #pad-secure {
-  animation: slideInLeft 0.75s 0.3s forwards;
+  animation: slideInRight 0.75s 0.5s forwards;
   transform: translateX(-6rem);
   opacity: 0;
 }
 
 #TMDB {
-  animation: slideInRight 0.75s 0.6s forwards;
+  animation: slideInLeft 0.75s 0.75s forwards;
   transform: 6rem;
   opacity: 0;
 }
 
 #web-form {
-  animation: slideUp 0.75s 0.9s forwards;
+  animation: slideInRight 0.75s 0.99s forwards;
   transform: 6rem;
   opacity: 0;
 }
@@ -117,6 +123,14 @@
 
 .card img {
   margin: auto auto;
+}
+
+.project-card {
+  background-color: #F1ECEA !important;
+  border: none !important;
+  height: 100%;
+  margin: 0 auto;
+  box-shadow: 8px 8px 8px rgba(128, 128, 128, 0.5);
 }
 
 /******** custom classes ********/
