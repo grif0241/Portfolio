@@ -3,10 +3,13 @@
     // width: 100%;
     // background-color: $light-shades !important;
     border: none !important;
-    // height: 100%;
-    // padding:0.5rem;
+    height: 100%;
 
     // centering the card in the container
     margin: 0 auto;
     // box-shadow: 8px 8px 8px rgb(grey, 0.5);
+}
+
+.card img {
+  margin: auto auto;
 }

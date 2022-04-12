@@ -111,7 +111,12 @@
 /******** components ********/
 .card {
   border: none !important;
+  height: 100%;
   margin: 0 auto;
+}
+
+.card img {
+  margin: auto auto;
 }
 
 /******** custom classes ********/
